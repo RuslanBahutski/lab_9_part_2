@@ -4,6 +4,7 @@ void setup() {
 
 void draw() {
 drawHouse (100,100);
+drawHouse (int(random(0,400)), int(random(0,400)));
 }
 
 void drawHouse(int x, int y) {
